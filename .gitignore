@@ -1,0 +1,88 @@
+##################################################
+# R specific
+##################################################
+
+# R session files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# Package build files
+*.tar.gz
+
+# Renv / Packrat (if used)
+renv/library/
+renv/staging/
+renv/cache/
+packrat/lib/
+packrat/src/
+
+##################################################
+# Output files (very important for your simulations)
+##################################################
+
+# Data outputs
+*.csv
+*.rds
+*.rda
+*.RData
+
+# Logs / temporary results
+*.log
+*.out
+
+# Figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+##################################################
+# LaTeX (if you compile paper here)
+##################################################
+
+*.aux
+*.bbl
+*.blg
+*.brf
+*.lof
+*.lot
+*.toc
+*.fls
+*.out
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+
+##################################################
+# OS files
+##################################################
+
+# macOS
+.DS_Store
+
+##################################################
+# Editor / IDE
+##################################################
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+##################################################
+# Misc
+##################################################
+
+# Temporary files
+*~
+*.swp
+*.bak
